@@ -289,6 +289,11 @@ BO_ 69 STW_ACTN_RQ: 8 STW
  SG_ MC_STW_ACTN_RQ : 52|4@1+ (1,0) [0|15] "" NEO
  SG_ CRC_STW_ACTN_RQ : 56|8@1+ (1,0) [0|0] "" NEO
 
+BO_ 637 APS_eacMonitor: 3 NEO
+ SG_ APS_eacAllow : 0|2@1+ (1,0) [0|0] "" EPAS
+ SG_ APS_eacMonitorCounter : 8|4@1+ (1,0) [0|0] "" EPAS
+ SG_ APS_eacMonitorChecksum : 16|8@1+ (1,0) [0|0] "" EPAS
+
 BO_ 643 BODY_R1: 8 GTW
  SG_ AirTemp_Insd : 47|8@0+ (0.25,0) [0|63.5] "C"  NEO
  SG_ AirTemp_Outsd : 63|8@0+ (0.5,-40) [-40|86.5] "C"  NEO
